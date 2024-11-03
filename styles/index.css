@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position: relative;
+}
+
+/* header serction============== */
+.titlehead{
+    height: 5vh;
+    width: 90%;
+    padding:0% 5%;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.headlinks{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+/* main body styles */
+
+.maindiv{
+    height: 93vh;
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.mainleft, .mainright{
+    height: 100%;
+    width: 40%;
+    border: 2px solid black;}
+.mainleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.datetime{
+    height: 10vh;
+    width: 90%;
+    border: 2px solid black;
+    margin-bottom: 5vh;
+    
+}
+.datetimediv{
+    height: 100%;
+    width: 25vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.options{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    height: 50%;
+    width: 90%;
+}
+.inoptions{
+    height: fit-content;
+    width: 38vh;
+    border: 2px solid black;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+#ooo{
+    height: 10vh;
+    width: 10vh;
+    margin: 10px;
+    border-radius: 9px;
+    border: 2px solid black;
+}
